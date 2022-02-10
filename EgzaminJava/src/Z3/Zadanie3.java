@@ -21,11 +21,11 @@ public class Zadanie3 {
 
     public static void main(String[] args) {
         File[] files = new File[5];
-        files[0] = new File("C:\\Users\\Szymon\\IdeaProjects\\EgzaminJava\\src\\Z1");
-        files[1] = new File("C:\\Users\\Szymon\\IdeaProjects\\EgzaminJava\\src\\Z2");
-        files[2] = new File("C:\\Users\\Szymon\\IdeaProjects\\EgzaminJava\\src\\Z3");
-        files[3] = new File("C:\\Users\\Szymon\\IdeaProjects\\EgzaminJava\\src\\readme");
-        files[4] = new File("C:\\Users\\Szymon\\IdeaProjects\\EgzaminJava\\src\\Z1\\ArrayUtil.java");
+        files[0] = new File("src\\Z1");
+        files[1] = new File("src\\Z2");
+        files[2] = new File("src\\Z3");
+        files[3] = new File("src\\readme");
+        files[4] = new File("src\\Z1\\ArrayUtil.java");
 
         System.out.println(Arrays.toString(sortowanie(files)));
 
